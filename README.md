@@ -23,11 +23,12 @@ Platform limitations (e.g., restricted file system access and limited dataset sc
 ## Pipeline Architecture
 The workflow is implemented as a **modular SAS data pipeline**, with each stage isolated into its own program file:
 
+```
 01_import.sas – Data ingestion
 02_process.sas – Data cleaning & transformation
 03_analyze.sas – Business intelligence & analytics
 run_all.sas – Pipeline orchestration
-
+```
 ## Pipeline Stages
 
 ### 1. Data Import
